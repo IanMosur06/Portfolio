@@ -1,14 +1,15 @@
 import React from "react";
 
-import "./nav.css"
+import "./header.css"
 
-const Work = () => {
+const Header = () => {
     function test(){
         console.log("Test!")
       }
       return (
+<div>insert header section here</div>
 
       );
 };
 
-export default Work;
+export default Header;

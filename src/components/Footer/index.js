@@ -1,14 +1,15 @@
 import React from "react";
 
-import "./nav.css"
+import "./footer.css"
 
-const Header = () => {
+const Footer = () => {
     function test(){
         console.log("Test!")
       }
       return (
+<div>This is the footer</div>
 
       );
 };
 
-export default Header;
+export default Footer;

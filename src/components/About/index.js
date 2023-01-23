@@ -1,14 +1,14 @@
 import React from "react";
 
-import "./nav.css"
+import "./about.css"
 
-const Nav = () => {
+const About = () => {
     function test(){
         console.log("Test!")
       }
       return (
-
+<div>About me and my work</div>
       );
 };
 
-export default Nav;
+export default About;

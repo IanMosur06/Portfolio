@@ -1,14 +1,15 @@
 import React from "react";
 
-import "./nav.css"
+import "./work.css"
 
-const Footer = () => {
+const Work = () => {
     function test(){
         console.log("Test!")
       }
       return (
+<div>Display projects here</div>
 
       );
 };
 
-export default Footer;
+export default Work;
