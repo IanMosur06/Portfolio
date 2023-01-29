@@ -1,0 +1,33 @@
+*{
+    --red: rgb(243, 50, 33);
+}
+
+.ContactMe{
+    height: 15em;
+    background-color: black;
+    color: white;
+}
+
+.contactText {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    font-size: 26px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 4em;
+    font-size: medium;
+}
+
+.contacts a:hover {
+    color: var(--red);
+}

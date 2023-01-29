@@ -1,23 +1,26 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-import "./nav.css"
+import "./nav.css";
 
 const Nav = () => {
-    function test(){
-        console.log("Test!")
-      }
-      return (
-        <div className="NavBar">
-          <div className="logo">
-            This will be the logo
-          </div>
-          <div className="navigation">
-            <a>About</a>
-            <a>My Work</a>
-            <a>Contact Me</a>
-          </div>
+  return (
+    <div className="NavBar">
+      <div className="logo">
+        <h1 onClick={() => console.log("working")}>
+          Ian <span className="orange-red">Mosur</span>
+        </h1>
+      </div>
+      <div className="navSection">
+        <div className="navigation">
+          
+          <p><Link to='aboutBox' spy={true} smooth={true} offset={0} duration={800}>About</Link></p>
+          <p><Link to='projects' spy={true} smooth={true} offset={0} duration={800}>My Work</Link></p>
+          <p><Link to='ContactMe' spy={true} smooth={true} offset={0} delay={0} duration={800}>Contact Me</Link></p>
         </div>
-      );
+      </div>
+    </div>
+  );
 };
 
 export default Nav;

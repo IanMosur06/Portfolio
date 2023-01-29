@@ -1,0 +1,48 @@
+*{
+    --red: rgb(243, 50, 33);
+}
+
+.NavBar {
+    width: auto;
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    margin-left: 1.5em;
+}
+
+.logo > h1{
+    color:white;
+    font-weight: 500;
+    font-size:2.5em;
+}
+
+.orange-red{
+    color: rgb(229, 46, 29)
+}
+
+.navSection {
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+}
+
+.navigation {
+    display: flex;
+    align-items: center;    
+    justify-content: end;
+ 
+}
+
+.navigation p{
+    margin-left: 3em;
+    margin-right: 3em;   
+}
+
+.navigation p:hover {
+    color: var(--red);
+}

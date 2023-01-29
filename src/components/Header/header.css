@@ -1,0 +1,25 @@
+.headerSection {
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    font-size: 30px;
+}
+
+.headerImage {
+}
+
+.fullStack {
+
+}
+
+.webDev {
+
+}
